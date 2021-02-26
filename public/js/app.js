@@ -47904,7 +47904,7 @@ __webpack_require__(/*! ../../public/plantilla/js/demo/chart-pie-demo.js */ "./p
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-alert('hola mundo');
+// alert('hola mundo');
 
 /***/ }),
 
