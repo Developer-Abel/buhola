@@ -11,7 +11,7 @@
     <div id="content-wrapper" class="d-flex flex-column">
       <div id="content">
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-          @include('partials/nav')
+          @include('partials/nav') 
         </nav>
         {{--  contenido  --}}
           @yield('content')
@@ -50,7 +50,12 @@
     </div>
   </div>
 
-  <script src="{{asset('js/app.js')}}"></script>
+     
+    <script src="{{asset('js/datatables/jquery-3.5.1.js')}}"></script>
+    <script src="{{asset('js/datatables/jquery.dataTables.min.js')}}"></script>
+    <script src="{{asset('js/datatables/dataTables.bootstrap4.min.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script> 
+
 </body>
 
 </html>

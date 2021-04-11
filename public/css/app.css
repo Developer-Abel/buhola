@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i);/*!
+@import url(https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css);@import url(https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css);@import url(https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i);/*!
  * Font Awesome Free 5.13.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
@@ -11225,7 +11225,60 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
-.color {
-  color: green;
+.bg_purple {
+  background-color: #6C648B;
+}
+
+.bg_orange {
+  background-color: #F8A100;
+}
+
+.bg_green {
+  background-color: #6BBAA7;
+}
+
+.bg_brown {
+  background-color: #B6A19E;
+}
+
+.bg_grey50 {
+  background-color: #DDDFEB;
+}
+
+.bg_grey100 {
+  background-color: #858796;
+}
+
+.color_purple {
+  color: #6C648B;
+}
+
+.color_orange {
+  color: #F8A100;
+}
+
+.color_green {
+  color: #6BBAA7;
+}
+
+.color_brown {
+  color: #B6A19E;
+}
+
+.color_grey50 {
+  color: #DDDFEB;
+}
+
+.color_grey100 {
+  color: #858796;
+}
+
+.color_white {
+  color: white;
+}
+
+.color_whiteB {
+  color: white;
+  font-weight: bold;
 }
 
