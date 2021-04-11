@@ -8,19 +8,29 @@ class CreateUsersTable extends Migration
 {
     /**
      * Run the migrations.
-     *
+     *- PK UserId
+
      * @return void
      */
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('name');
+            $table->engine = 'InnoDB';
+            $table->bigIncrements('UserId');
+            $table->string('Name');
+            $table->string('LastName');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->rememberToken();
-            $table->timestamps();
+            $table->string('RFC');
+            $table->string('Logo');
+            $table->string('Direction');
+            $table->string('City');
+            $table->string('State');
+            $table->string('Country');
+            $table->string('Cel');
+            $table->string('Phone');
+            $table->dateTime('CreateDate');
+            $table->boolean('Deleted');
         });
     }
 
